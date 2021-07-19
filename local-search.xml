@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>机器学习学习笔记（一）</title>
+    <link href="/2021/07/19/ml1/"/>
+    <url>/2021/07/19/ml1/</url>
+    
+    <content type="html"><![CDATA[<h1 id="What-is-ML"><a href="#What-is-ML" class="headerlink" title="What is ML?"></a>What is ML?</h1><p>In short, ML is to Look for a function and to obtain an answer to a certain question, applied in speech recognition, image recognition.</p><hr><h2 id="Different-types-of-ML"><a href="#Different-types-of-ML" class="headerlink" title="Different types of ML"></a>Different types of ML</h2><ol><li><p>Regression: output a scalar.</p></li><li><p>Classification: given classes, output correct one. E.g. alpha go.</p></li><li><p>Structured learning：create something with a structure.</p></li></ol><hr><h2 id="How-to-find-a-function"><a href="#How-to-find-a-function" class="headerlink" title="How to find a function?"></a>How to find a function?</h2><ol><li><p>Give a function with unknown paraments, called model.<br>$$<br>y = b+wx_1<br>$$<br>Symbol $x_1$ is called feature.Symbol $w$ and $b$ represent weight and bias. </p></li><li><p>Define loss from Training Data. Loss is a function of parameters $b$ and $w$. It evaluates how good a set of values is. Paint error surface.</p></li><li><p>Optimization: Gradient Descent for example. </p><p class="note note-success">The process of finding a function is called training.</p></li></ol><hr><h2 id="New-model"><a href="#New-model" class="headerlink" title="New model"></a>New model</h2><p>Sometimes linear functions are inaccurate, so we need to use a new model to construct function with parameters.</p><h3 id="From-linear-model-to-piecewise-linear-model"><a href="#From-linear-model-to-piecewise-linear-model" class="headerlink" title="From linear model, to piecewise linear model."></a>From linear model, to piecewise linear model.</h3><p>Use Sigmoid Function to approximately express Hard Sigmoid Function, and add multiple  Sigmoid Function to express piecewise linear model.</p><div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="/img/blog/ml1p1.png" alt="p1"></div></div><div class="group-image-row"><div class="group-image-wrap"><img src="/img/blog/ml1p2.png" alt="p2"></div></div></div><p>Then we can express function as:<br>$$<br>y = b + \sum_ic_i\ sigmoid(b_i+\sum_jw_{ij}x_j)<br>$$<br>We use vector $\theta$ to express all the parameters in the function above, then the Loss function can be expressed as $L(\theta)$.<br>After that, we do the optimization to find the $\theta^*$ satisfying $\theta^*=arg\ {min}_{\theta}\ L$</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello!</title>
     <link href="/2021/04/08/Hello/"/>
     <url>/2021/04/08/Hello/</url>

@@ -14,11 +14,11 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="机器学习的概念与简介">
+  <meta name="description" content="机器学习的的任务攻略">
   <meta name="author" content="谭小柴">
   <meta name="keywords" content="">
   
-  <title>机器学习学习笔记（一） - Difan Tan&#39;s Studio</title>
+  <title>机器学习学习笔记（二） - Difan Tan&#39;s Studio</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -175,7 +175,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="机器学习学习笔记（一）">
+            <span class="h2" id="subtitle" title="机器学习学习笔记（二）">
               
             </span>
 
@@ -190,8 +190,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-07-19 14:00" pubdate>
-        2021年7月19日 下午
+      <time datetime="2021-08-08 14:00" pubdate>
+        2021年8月8日 下午
       </time>
     </span>
   
@@ -202,7 +202,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      220 字
+      364 字
     </span>
   
 
@@ -212,7 +212,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      4
+      7
        分钟
     </span>
   
@@ -242,25 +242,31 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">机器学习学习笔记（一）</h1>
+            <h1 style="display: none">机器学习学习笔记（二）</h1>
             
               <p class="note note-info">
                 
-                  本文最后更新于：2021年7月19日 下午
+                  本文最后更新于：2021年8月8日 下午
                 
               </p>
             
             <div class="markdown-body">
-              <h1 id="What-is-ML"><a href="#What-is-ML" class="headerlink" title="What is ML?"></a>What is ML?</h1><p>In short, ML is to Look for a function and to obtain an answer to a certain question, applied in speech recognition, image recognition.</p>
+              <h1 id="What-is-the-general-guide-on-ML"><a href="#What-is-the-general-guide-on-ML" class="headerlink" title="What is the general guide on ML?"></a>What is the general guide on ML?</h1><hr>
+<h2 id="A-general-guide"><a href="#A-general-guide" class="headerlink" title="A general guide"></a>A general guide</h2><p>It can be described as the picture followed.</p>
+<div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="/img/blog/ml2p1.png" srcset="/img/loading.gif" lazyload alt="p1"></div></div></div>
+
+
+<h3 id="Large-training-loss"><a href="#Large-training-loss" class="headerlink" title="Large training loss"></a>Large training loss</h3><p>Training loss is large. It may result from:</p>
+<h4 id="1-Model-bias"><a href="#1-Model-bias" class="headerlink" title="1. Model bias"></a>1. Model bias</h4><p>It means that the model is too simple.<br><em><strong>Solution</strong></em>: redesign more features or deep learning</p>
+<h4 id="2-Optimization-issue"><a href="#2-Optimization-issue" class="headerlink" title="2. Optimization issue"></a>2. Optimization issue</h4><p><strong>How to know whether optimization causes a large training loss?</strong><br>Start from shallower networks (or other models), which are easier to optimize. If deeper networks do not obtain smaller loss on training data, then there is optimization issue.</p>
 <hr>
-<h2 id="Different-types-of-ML"><a href="#Different-types-of-ML" class="headerlink" title="Different types of ML"></a>Different types of ML</h2><ol>
-<li><p>Regression: output a scalar.</p>
-</li>
-<li><p>Classification: given classes, output correct one. E.g. alpha go.</p>
-</li>
-<li><p>Structured learning：create something with a structure.</p>
-</li>
-</ol>
+<h3 id="Small-training-loss-but-large-testing-loss"><a href="#Small-training-loss-but-large-testing-loss" class="headerlink" title="Small training loss, but large testing loss."></a>Small training loss, but large testing loss.</h3><p>Testing loss is large. It may result from:</p>
+<h4 id="1-Overfitting"><a href="#1-Overfitting" class="headerlink" title="1. Overfitting"></a>1. Overfitting</h4><p>Overfitting occurs when loss is small on training data, but large on testing data.<br><em><strong>Solutions</strong></em>:<br>a. more training data, or data augmentation;<br>b. Constrained model: model has less flexibility.</p>
+<div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="/img/blog/ml2p2.png" srcset="/img/loading.gif" lazyload alt="p1"></div></div></div>
+
+
+<p><em><strong>Bias-complexity trade-off</strong></em><br>Cross validation: divide training set into training set and validation set. Use validation set to test the loss of the function obtained from training data set.<br>How to split the training set? N-fold cross validation </p>
+<h4 id="2-Mismatch"><a href="#2-Mismatch" class="headerlink" title="2.Mismatch"></a>2.Mismatch</h4><p>Mismatch occurs when your training data and testing data have different distributions.Its difference from overfitting is that more training data can not obtain a better result.</p>
 <hr>
 <h2 id="How-to-find-a-function"><a href="#How-to-find-a-function" class="headerlink" title="How to find a function?"></a>How to find a function?</h2><ol>
 <li><p>Give a function with unknown paraments, called model.<br>$$<br>y = b+wx_1<br>$$<br>Symbol $x_1$ is called feature.Symbol $w$ and $b$ represent weight and bias. </p>
@@ -296,18 +302,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/08/08/ml2/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">机器学习学习笔记（二）</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/04/08/Hello/">
-                        <span class="hidden-mobile">Hello!</span>
+                      <a href="/2021/07/19/ml1/">
+                        <span class="hidden-mobile">机器学习学习笔记（一）</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

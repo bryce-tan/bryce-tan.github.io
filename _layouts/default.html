@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | HUST</title>
     <style>
-        /* 极简高级 CSS 样式 */
+        /* 全局样式 */
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             line-height: 1.6;
@@ -18,13 +18,30 @@
         a { color: #0056b3; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s;}
         a:hover { border-bottom: 1px solid #0056b3; }
         
-        /* 头部样式 */
-        header { margin-bottom: 50px; }
-        h1 { font-size: 2.2rem; margin-bottom: 5px; letter-spacing: -0.5px; }
-        .subtitle { color: #666; font-size: 1.1rem; font-weight: 300; }
+        /* --- 新增：头部布局样式 --- */
+        .header-container {
+            display: flex;
+            align-items: flex-start; /* 顶部对齐 */
+            margin-bottom: 50px;
+        }
+        .profile-img {
+            width: 120px; /* 照片大小，可自行调整 */
+            height: 120px;
+            border-radius: 50%; /* 圆形头像 */
+            object-fit: cover; /* 确保照片填充不变形 */
+            margin-right: 30px; /* 照片和文字的间距 */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* 轻微阴影，更有质感 */
+        }
+        .header-content {
+            flex: 1;
+        }
+        /* ------------------------ */
+
+        h1 { font-size: 2.2rem; margin: 0 0 10px 0; letter-spacing: -0.5px; line-height: 1.2;}
+        .subtitle { color: #666; font-size: 1.1rem; font-weight: 300; margin-bottom: 2px;}
         .meta-links { margin-top: 15px; font-size: 0.95rem; }
-        .meta-links span { margin-right: 15px; }
-        .btn { display: inline-block; padding: 6px 12px; background-color: #333; color: #fff !important; border-radius: 4px; font-size: 0.9rem; margin-top: 5px; }
+        .meta-links span { margin-right: 15px; display: inline-block; margin-bottom: 5px;}
+        .btn { display: inline-block; padding: 6px 12px; background-color: #333; color: #fff !important; border-radius: 4px; font-size: 0.9rem; margin-top: 10px; border-bottom: none;}
         .btn:hover { background-color: #555; border-bottom: none; }
 
         /* 内容样式 */
@@ -41,21 +58,41 @@
         
         /* 底部 */
         footer { margin-top: 80px; font-size: 0.8rem; color: #999; border-top: 1px solid #eee; padding-top: 20px; }
+
+        /* 移动端适配 */
+        @media (max-width: 600px) {
+            .header-container {
+                flex-direction: column; /* 手机上改为上下结构 */
+                align-items: center;
+                text-align: center;
+            }
+            .profile-img {
+                margin-right: 0;
+                margin-bottom: 20px;
+                width: 100px;
+                height: 100px;
+            }
+            .meta-links span { display: block; margin-right: 0; } /* 手机上链接换行显示 */
+        }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>{{ page.title }} ({{ page.cn_name }})</h1>
-        <div class="subtitle">{{ page.role }}</div>
-        <div class="subtitle">{{ page.affiliation }}</div>
+    <header class="header-container">
+        <img src="assets/img/profile.jpg" alt="{{ page.title }}" class="profile-img">
         
-        <div class="meta-links">
-            <span>📍 {{ page.location }}</span>
-            <span>📧 <a href="mailto:{{ page.email }}">{{ page.email }}</a></span>
-            {% if page.github %}<span>🐱 <a href="https://github.com/{{ page.github }}" target="_blank">GitHub</a></span>{% endif %}
-            <br>
-            <a href="{{ page.cv_link }}" class="btn">Download CV</a>
+        <div class="header-content">
+            <h1>{{ page.title }} ({{ page.cn_name }})</h1>
+            <div class="subtitle">{{ page.role }}</div>
+            <div class="subtitle">{{ page.affiliation }}</div>
+            
+            <div class="meta-links">
+                <span>📍 {{ page.location }}</span>
+                <span>📧 <a href="mailto:{{ page.email }}">{{ page.email }}</a></span>
+                {% if page.github %}<span>🐱 <a href="https://github.com/{{ page.github }}" target="_blank">GitHub</a></span>{% endif %}
+                <br>
+                <a href="{{ page.cv_link }}" class="btn">Download CV</a>
+            </div>
         </div>
     </header>
 

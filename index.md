@@ -50,6 +50,6 @@ I’m open to collaborations, discussions, or any opportunities to work together
 
 ## Talks
 
-**Temporal Load-Aware in CVD Placement.** *CCF ChinaStorage 2025*, Aug 2025
+**TELA: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme.** *CCF ChinaStorage 2025*, Aug 2025
 
-**Tela: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme.** *ASPLOS' 25*, Apr 2025
+**TELA: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme.** *ASPLOS' 25*, Apr 2025

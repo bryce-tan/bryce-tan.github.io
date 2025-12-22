@@ -48,16 +48,6 @@ I’m open to collaborations, discussions, or any opportunities to work together
     </div>
 </div>
 
-## Talks
-
-* **CCF ChinaStorage 2025** | Wuhan, China
-    <br><span style="color: #666; font-size: 0.9em;">Topic: Load Balancing in Cloud Block Storage Systems (Tela)</span>
-    <span style="float: right; font-family: monospace; color: #888; font-size: 0.9em;">Aug 2025</span>
-
-* **ASPLOS '25** | Rotterdam, Netherlands
-    <br><span style="color: #666; font-size: 0.9em;">Topic: TELA: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme</span>
-    <span style="float: right; font-family: monospace; color: #888; font-size: 0.9em;">Apr 2025</span>
-
 ## Artifacts & Demos
 
 <div class="paper-item">
@@ -75,9 +65,19 @@ I’m open to collaborations, discussions, or any opportunities to work together
     <span class="tag" style="background-color: #fff3e0; color: #ef6c00; border: 1px solid #ffe0b2;">DEMO</span>
     <span class="paper-title">Tencent "Kaiwu" RL Competition Strategy Demo</span>
     <div>
-        Demonstration of our Multi-Agent Reinforcement Learning strategy for MOBA gameplay. Ranked <strong>Top-4</strong> nationally.
+        Demonstration of our Multi-Agent Reinforcement Learning strategy for MOBA gameplay. 
     </div>
     <div class="paper-venue" style="margin-top: 5px;">
         <a href="https://www.bilibili.com/video/BV1eb4y1n7hG/" target="_blank">📺 Watch on Bilibili</a>
     </div>
 </div>
+
+## Talks
+
+* **CCF ChinaStorage 2025** | Wuhan, China
+    <br><span style="color: #666; font-size: 0.9em;">Topic: Load Balancing in Cloud Block Storage Systems (Tela)</span>
+    <span style="float: right; font-family: monospace; color: #888; font-size: 0.9em;">Aug 2025</span>
+
+* **ASPLOS '25** | Rotterdam, Netherlands
+    <br><span style="color: #666; font-size: 0.9em;">Topic: TELA: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme</span>
+    <span style="float: right; font-family: monospace; color: #888; font-size: 0.9em;">Apr 2025</span>

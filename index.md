@@ -13,7 +13,7 @@ cv_link: assets/pdf/cv.pdf
 
 ## About Me
 
-I am a Ph.D. candidate at the **Intelligent Data Storage & Management (IDSM) Lab**, HUST, advised by Prof. Hua Wang and Prof. Ke Zhou.
+I am a Ph.D. candidate at the **Intelligent Data Storage & Management (IDSM) Lab**, HUST, advised by Prof. Hua Wang and Prof. Ke Zhou. I obtained the B.E. degree in Hydropower Engineering \& Automation from HUST in 2022.
 
 I’m currently working on exploring practical and scalable methods to improve the efficiency and performance of cloud storage systems, and optimizing data-loading pipelines to reduce training stalls and boost end-to-end throughput.
 
@@ -48,8 +48,8 @@ I’m open to collaborations, discussions, or any opportunities to work together
     </div>
 </div>
 
-## Education
+## Talks
 
-**Huazhong University of Science and Technology** *Ph.D. in Computer System and Architecture* 2022 - Present
+**Temporal Load-Aware in CVD Placement** *CCF ChinaStorage 2025* Aug 2025
 
-**Huazhong University of Science and Technology** *B.Eng. in Hydropower Engineering and Automation* 2018 - 2022
+**Tela: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme** *ASPLOS' 25* Apr 2025

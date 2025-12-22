@@ -13,7 +13,7 @@ cv_link: assets/pdf/cv.pdf
 
 ## About Me
 
-I am a Ph.D. candidate at the **Intelligent Data Storage & Management (IDSM) Lab**, HUST, advised by Prof. Hua Wang and Prof. Ke Zhou. I obtained the B.E. degree in Hydropower Engineering \& Automation from HUST in 2022.
+I am a Ph.D. candidate at the **Intelligent Data Storage & Management (IDSM) Lab**, HUST, advised by Prof. Hua Wang and Prof. Ke Zhou. I obtained the B.E. degree in Hydropower Engineering & Automation from HUST in 2022.
 
 I’m currently working on exploring practical and scalable methods to improve the efficiency and performance of cloud storage systems, and optimizing data-loading pipelines to reduce training stalls and boost end-to-end throughput.
 
@@ -21,10 +21,10 @@ I’m open to collaborations, discussions, or any opportunities to work together
 
 ## News
 
-* **Aug 2025:** Invited to talk at the CCF ChinaStorage 2025.
+* **Aug 2025:** Invited talk at CCF **ChinaStorage 2025**!
 * **Nov 2024:** One paper accepted to **ASPLOS '25**!
 
-## Selected Publications
+## Publications
 
 <div class="paper-item">
     <span class="tag tag-asplos">ASPLOS '25</span>
@@ -50,6 +50,6 @@ I’m open to collaborations, discussions, or any opportunities to work together
 
 ## Talks
 
-**Temporal Load-Aware in CVD Placement** *CCF ChinaStorage 2025* Aug 2025
+**Temporal Load-Aware in CVD Placement.** *CCF ChinaStorage 2025*, Aug 2025
 
-**Tela: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme** *ASPLOS' 25* Apr 2025
+**Tela: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme.** *ASPLOS' 25*, Apr 2025

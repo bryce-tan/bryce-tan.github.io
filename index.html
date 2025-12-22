@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difan Tan | HUST</title>
+    <style>
+        /* 全局设置：极简风格核心 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fcfcfc; /* 极淡的灰白底色，护眼且高级 */
+        }
+
+        /* 链接样式 */
+        a { color: #0056b3; text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s;}
+        a:hover { border-bottom: 1px solid #0056b3; }
+
+        /* 头部信息 */
+        header { margin-bottom: 50px; }
+        h1 { font-size: 2.2rem; margin-bottom: 5px; letter-spacing: -0.5px; }
+        .subtitle { color: #666; font-size: 1.1rem; font-weight: 300; }
+        .meta-links { margin-top: 15px; font-size: 0.95rem; }
+        .meta-links span { margin-right: 15px; }
+
+        /* 章节标题 */
+        section { margin-bottom: 45px; }
+        h2 { 
+            font-size: 1.1rem; 
+            text-transform: uppercase; 
+            letter-spacing: 1px; 
+            border-bottom: 1px solid #eee; 
+            padding-bottom: 5px; 
+            margin-bottom: 20px; 
+            color: #111;
+        }
+
+        /* 论文列表样式 */
+        .paper { margin-bottom: 20px; }
+        .paper-title { font-weight: 600; color: #222; display: block; }
+        .paper-venue { font-style: italic; color: #555; font-size: 0.95rem;}
+        .tag { 
+            display: inline-block; 
+            padding: 1px 5px; 
+            font-size: 0.75rem; 
+            border-radius: 3px; 
+            font-weight: 600; 
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+        .tag-asplos { background-color: #e3f2fd; color: #0d47a1; border: 1px solid #bbdefb; } /* 蓝色高亮 */
+        .tag-patent { background-color: #f5f5f5; color: #616161; border: 1px solid #e0e0e0; }
+
+        /* 新闻列表 */
+        .news-item { margin-bottom: 8px; font-size: 0.95rem; }
+        .date { font-family: monospace; color: #888; margin-right: 10px; }
+
+        /* 简历下载按钮 */
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            background-color: #333;
+            color: #fff !important;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+        .btn:hover { background-color: #555; border-bottom: none; }
+
+        /* 移动端适配 */
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            body { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Difan Tan (谭迪凡)</h1>
+        <div class="subtitle">Ph.D. Candidate in Computer Architecture</div>
+        <div class="subtitle">Huazhong University of Science and Technology (HUST)</div>
+        
+        <div class="meta-links">
+            <span>📍 Wuhan, China</span>
+            <span>📧 <a href="mailto:difan_tan@hust.edu.cn">difan_tan@hust.edu.cn</a></span>
+            <span>🐱 <a href="https://github.com/bryce-tan" target="_blank">GitHub</a></span>
+            <br>
+            <a href="assets/pdf/cv.pdf" class="btn">Download CV</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a Ph.D. candidate at the <strong>Intelligent Data Storage & Management (IDSM) Lab</strong>, HUST, advised by Prof. Hua Wang and Prof. Ke Zhou.
+        </p>
+        <p>
+            My research focuses on <strong>Cloud Resource Management</strong> and <strong>Systems for Machine Learning</strong>. I utilize machine learning techniques to optimize storage systems (Load Balancing) and build efficient systems to accelerate ML training (Data Loading).
+        </p>
+        <p style="color: #c0392b;">
+            🔥 <strong>I am actively seeking Visiting Ph.D. opportunities (CSC supported) starting Fall 2026.</strong>
+        </p>
+    </section>
+
+    <section>
+        <h2>News</h2>
+        <div class="news-item">
+            <span class="date">Dec 2025</span>
+            Submitted a new work on LLM-enhanced scheduling to <strong>OSDI '26</strong>.
+        </div>
+        <div class="news-item">
+            <span class="date">Nov 2024</span>
+            One paper accepted to <strong style="color:#000;">ASPLOS '25</strong>!
+        </div>
+    </section>
+
+    <section>
+        <h2>Selected Publications</h2>
+
+        <div class="paper">
+            <span class="tag tag-asplos">ASPLOS '25</span>
+            <span class="paper-title">Tela: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme</span>
+            <div>
+                <strong>Difan Tan</strong>, Jiawei Li, Hua Wang, Xiaoxiao Li, Ke Zhou, Ming Xie, Mengling Tao.
+            </div>
+            <div class="paper-venue">
+                Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems.
+            </div>
+            </div>
+
+        <div class="paper">
+            <span class="tag tag-patent">Patent</span>
+            <span class="paper-title">Method and System for Constructing Missing Rate Curves in Heterogeneous Granularity Storage Systems</span>
+            <div>
+                Xiaojun Guo, Hua Wang, Ke Zhou, Yaodong Han, <strong>Difan Tan</strong>.
+            </div>
+            <div class="paper-venue">
+                CN Patent ZL202210789994.4 (Granted).
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div style="display: flex; justify-content: space-between;">
+            <div><strong>Huazhong University of Science and Technology</strong></div>
+            <div>2022 - Present</div>
+        </div>
+        <div>Ph.D. in Computer System Architecture</div>
+        <br>
+        <div style="display: flex; justify-content: space-between;">
+            <div><strong>Huazhong University of Science and Technology</strong></div>
+            <div>2018 - 2022</div>
+        </div>
+        <div>B.Eng. in Hydropower Engineering and Automation</div>
+    </section>
+
+    <footer style="margin-top: 80px; font-size: 0.8rem; color: #999; border-top: 1px solid #eee; padding-top: 20px;">
+        &copy; 2025 Difan Tan. Last updated: Dec 2025.
+    </footer>
+
+</body>
+</html>

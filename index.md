@@ -50,6 +50,34 @@ I’m open to collaborations, discussions, or any opportunities to work together
 
 ## Talks
 
-**TELA: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme.** *CCF ChinaStorage 2025*, Aug 2025
+* **CCF ChinaStorage 2025** | Wuhan, China
+    <br><span style="color: #666; font-size: 0.9em;">Topic: Load Balancing in Cloud Block Storage Systems (Tela)</span>
+    <span style="float: right; font-family: monospace; color: #888; font-size: 0.9em;">Aug 2025</span>
 
-**TELA: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme.** *ASPLOS' 25*, Apr 2025
+* **ASPLOS '25** | Rotterdam, Netherlands
+    <br><span style="color: #666; font-size: 0.9em;">Topic: TELA: A Temporal Load-Aware Cloud Virtual Disk Placement Scheme</span>
+    <span style="float: right; font-family: monospace; color: #888; font-size: 0.9em;">Apr 2025</span>
+
+## Artifacts & Demos
+
+<div class="paper-item">
+    <span class="tag" style="background-color: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9;">DATASET</span>
+    <span class="paper-title">Tencent Cloud Block Storage IO Traces</span>
+    <div>
+        Real-world production traces collected from Tencent Cloud used in our <strong>TELA</strong> paper. Contains both provisioning info and I/O traces of virtual disks.
+    </div>
+    <div class="paper-venue" style="margin-top: 5px;">
+        <a href="https://github.com/Tencent/Cloud-Volume-Workload-Traces" target="_blank">🔗 GitHub Repository</a>
+    </div>
+</div>
+
+<div class="paper-item">
+    <span class="tag" style="background-color: #fff3e0; color: #ef6c00; border: 1px solid #ffe0b2;">DEMO</span>
+    <span class="paper-title">Tencent "Kaiwu" RL Competition Strategy Demo</span>
+    <div>
+        Demonstration of our Multi-Agent Reinforcement Learning strategy for MOBA gameplay. Ranked <strong>Top-4</strong> nationally.
+    </div>
+    <div class="paper-venue" style="margin-top: 5px;">
+        <a href="https://www.bilibili.com/video/BV1eb4y1n7hG/" target="_blank">📺 Watch on Bilibili</a>
+    </div>
+</div>

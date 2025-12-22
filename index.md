@@ -75,7 +75,7 @@ I’m open to collaborations, discussions, or any opportunities to work together
 ## Talks
 
 * **CCF ChinaStorage 2025** | Wuhan, China
-    <br><span style="color: #666; font-size: 0.9em;">Topic: Load Balancing in Cloud Block Storage Systems (Tela)</span>
+    <br><span style="color: #666; font-size: 0.9em;">Topic: Load Balancing in Cloud Block Storage Systems (TELA)</span>
     <span style="float: right; font-family: monospace; color: #888; font-size: 0.9em;">Aug 2025</span>
 
 * **ASPLOS '25** | Rotterdam, Netherlands

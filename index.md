@@ -2,7 +2,7 @@
 layout: default
 title: Difan Tan
 name: Difan Tan
-cn_name: 
+cn_name: 谭頔凡
 role: Ph.D. Candidate in Computer System and Architecture
 affiliation: Huazhong University of Science and Technology (HUST)
 location: Wuhan, China

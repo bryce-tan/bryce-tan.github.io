@@ -46,7 +46,7 @@
 <body>
 
     <header>
-        <h1>{{ page.name }} ({{ page.cn_name }})</h1>
+        <h1>{{ page.title }} ({{ page.cn_name }})</h1>
         <div class="subtitle">{{ page.role }}</div>
         <div class="subtitle">{{ page.affiliation }}</div>
         
@@ -64,7 +64,7 @@
     </main>
 
     <footer>
-        &copy; {{ "now" | date: "%Y" }} {{ page.name }}. Last updated: {{ "now" | date: "%B %Y" }}.
+        &copy; {{ "now" | date: "%Y" }} {{ page.title }}. Last updated: {{ "now" | date: "%B %Y" }}.
     </footer>
 
 </body>

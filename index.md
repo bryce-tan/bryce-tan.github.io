@@ -13,11 +13,11 @@ cv_link: assets/pdf/cv.pdf
 
 ## About Me
 
-I am a Ph.D. candidate at the **Intelligent Data Storage & Management (IDSM) Lab**, HUST, advised by Prof. Hua Wang and Prof. Ke Zhou. I obtained the B.E. degree in Hydropower Engineering & Automation from HUST in 2022.
+I am a Ph.D. candidate in the Intelligent Data Storage & Management (IDSM) Lab at Huazhong University of Science and Technology (HUST), advised by Prof. Hua Wang and Prof. Ke Zhou. I received my B.E. in Hydropower Engineering & Automation from HUST in 2022.
 
-I’m currently working on exploring practical and scalable methods to improve the efficiency and performance of cloud storage systems, and optimizing data-loading pipelines to reduce training stalls and boost end-to-end throughput.
+I’m currently working on two complementary directions: **ML for Systems** and **Systems for ML**. On the ML for Systems side, I focus on *cloud resource management*, especially practical and scalable techniques for improving the efficiency and performance of cloud storage systems. On the Systems for ML side, I work on *deep learning training data bottlenecks*, with an emphasis on optimizing data-loading pipelines to reduce training stalls and improve end-to-end throughput.
 
-I’m open to collaborations, discussions, or any opportunities to work together on related research ideas—feel free to reach out if you’re interested in collaboration or have questions about my work.
+I’m always *happy to connect*—if you’re interested in collaboration, want to discuss related ideas, or have questions about my work, feel free to reach out.
 
 ## News
 
@@ -54,7 +54,7 @@ I’m open to collaborations, discussions, or any opportunities to work together
     <span class="tag" style="background-color: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9;">DATASET</span>
     <span class="paper-title">Tencent Cloud Block Storage IO Traces</span>
     <div>
-        Real-world production traces collected from Tencent Cloud used in our <strong>TELA</strong> paper. Contains both provisioning info and I/O traces of virtual disks.
+        Real-world production traces collected from Tencent Cloud used in our TELA paper. Contains both provisioning info and I/O traces of virtual disks.
     </div>
     <div class="paper-venue" style="margin-top: 5px;">
         <a href="https://github.com/Tencent/Cloud-Volume-Workload-Traces" target="_blank">🔗 GitHub Repository</a>
